@@ -1,0 +1,59 @@
+.cell{
+    background: rgb(238, 226, 226);
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: solid 1px rgba(112, 112, 112, 0.867);
+    text-align: center;
+}
+.cellactive {
+background-color: #058BDA;
+height: 100px;
+width: 100px;
+display: inline-block;
+border: solid 1px rgba(112, 112, 112, 0.867);
+text-align: center;
+}
+.guess-true{
+background-color: #00CC00;
+height: 100px;
+width: 100px;
+display: inline-block;
+border: solid 1px rgba(112, 112, 112, 0.867);
+text-align: center; 
+}
+
+.guess-false{
+background-color: #CC0000;
+height: 100px;
+width: 100px;
+display: inline-block;
+border: solid 1px rgba(112, 112, 112, 0.867);
+text-align: center; 
+}
+.guess-undefined{
+    background: rgb(238, 226, 226);
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: solid 1px rgba(112, 112, 112, 0.867);
+    text-align: center;
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+}
+.status{
+    font-weight: bold;
+}
+.remain{
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.game-bord{
+   position: absolute;
+   left: 30%;
+   top: 10%;
+}
